@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ConfigX"
-version = "0.1.0"
+name = "pyconfigx"
+version = "0.1.2" 
 description = "A hierarchical configuration and knowledge engine for dynamic systems"
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -15,11 +15,12 @@ requires-python = ">=3.9"
 
 dependencies = [
   "lark",
+  "colorama"
 ]
 
 classifiers = [
   "Programming Language :: Python :: 3",
-  "License :: OSI Approved :: MIT License",
+  # "License :: OSI Approved :: MIT License", <--- REMOVED (Contradicts your proprietary goal)
   "Operating System :: OS Independent",
 ]
 
@@ -30,3 +31,7 @@ Repository = "https://github.com/xdityagr/ConfigX"
 [tool.setuptools.packages.find]
 include = ["configx*"]
 exclude = ["readmefiles*"]
+
+# --- THIS IS THE FIX ---
+[tool.setuptools.package-data]
+configx = ["*.lark", "**/*.lark"]

@@ -13,6 +13,7 @@ ConfigX.egg-info/
 .pytest_cache/
 TODO
 
+
 # configx files
 .configx/
 history.log
