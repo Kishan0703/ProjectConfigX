@@ -536,9 +536,3 @@ ConfigX is actively under development with exciting features coming soon! Stay u
 For questions, feedback, or contributions:
 
 **Email**: adityagaur.home@gmail.com
-
----
-
-Made with ❤️ in India by [Aditya Gaur](https://github.com/xdityagr)
-<br>
-**© 2025 Aditya Gaur. All rights reserved.** Unauthorized use or reproduction of this project, including its design, concepts, and documentation is prohibited.
