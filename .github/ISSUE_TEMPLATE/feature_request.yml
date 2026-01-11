@@ -1,0 +1,48 @@
+name: Feature Request ⚙️
+description: Suggest a new idea or syntax for ConfigX
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Have an idea for ConfigX?**
+        We'd love to hear about it!
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your feature request related to a problem?
+      description: A clear and concise description of what the problem is.
+      placeholder: "I'm frustrated when I have to manually validate data types..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the solution you'd like
+      description: What should happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: syntax
+    attributes:
+      label: Proposed Syntax (Optional)
+      description: If this changes ConfigXQL, show us how it should look.
+      render: python
+      placeholder: "confx.resolve('new.syntax.idea!magic')"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: type
+    attributes:
+      label: Feature Category
+      description: What part of ConfigX does this improve?
+      options:
+        - label: ConfigXQL Syntax
+        - label: AI / Agent Memory
+        - label: Performance / Caching
+        - label: Documentation / CLI
