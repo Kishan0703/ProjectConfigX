@@ -11,11 +11,21 @@ Whether you are a participant in **GDSC MUJ Winter of Code**, a seasoned open-so
 ## [ Table of Contents ]
 
 1.  [Code of Conduct](#code-of-conduct)
-2.  [Development Setup](#development-setup)
-3.  [Coding Guidelines](#coding-guidelines)
-4.  [Contribution Workflow](#contribution-workflow)
-5.  [Reporting Bugs & Suggestions](#reporting-bugs--suggestions)
-6.  [Getting Help](#getting-help)
+2.  **[Documentation & Resources](#documentation--resources)**
+3.  [Development Setup](#development-setup)
+4.  [Coding Guidelines](#coding-guidelines)
+5.  [Contribution Workflow](#contribution-workflow)
+6.  [Reporting Bugs & Suggestions](#reporting-bugs--suggestions)
+7.  [Getting Help](#getting-help)
+
+---
+
+## [ Documentation & Resources ]
+
+Before diving into the code, we highly recommend reading our internal guides:
+
+*   **[Developer Guide](docs/DEVELOPER_GUIDE.md)**: The architecture manual. Read this to understand the Core Rules, API behavior, and file structure.
+*   **[Contributor Resources](docs/CONTRIBUTOR_RESOURCES.md)**: Links to external tutorials (Lark, Python Structs) and tool references.
 
 ---
 
