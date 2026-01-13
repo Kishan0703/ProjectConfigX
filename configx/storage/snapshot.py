@@ -33,8 +33,8 @@ class SnapshotStore:
         Save the entire tree to a binary snapshot.
         """
         directory = os.path.dirname(file_path)
-        if directory and not os.path.exists(directory):
-            os.makedirs(directory)
+        if directory:
+            os.makedirs(directory, exist_ok=True)
 
         with open(file_path, "wb") as f:
             cls._write_header(f)
